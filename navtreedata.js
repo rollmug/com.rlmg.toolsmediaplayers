@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "RLMG Tools - Core", "index.html", [
+  [ "RLMG Tools - Media Players", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
       [ "Package Members", "namespacemembers.html", [
