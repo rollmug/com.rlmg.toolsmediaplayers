@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['totalframenum_0',['TotalFrameNum',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a3d6764635598f56769d4fbca547ab78f',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
-  ['tryloadingfromassetbundle_1',['TryLoadingFromAssetBundle',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a5a6e6117e0a3943d506d09ba9d3d783c',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]],
-  ['tryloadingfromresources_2',['TryLoadingFromResources',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#ab333534d6e86f414c1ac412ca3bb589e',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]],
-  ['tryloadingfromstreamingassets_3',['TryLoadingFromStreamingAssets',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a0e1a89ebe83fde60d3e409431876d261',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]],
-  ['tryloadingfromstreamingassetsasync_4',['TryLoadingFromStreamingAssetsAsync',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#abaf03586d5fcdb0c10b848d6d7134067',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]]
+  ['uiimage_0',['uiImage',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#abbef883245986414e93aa3ce84aabe21',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['update_1',['Update',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#afff21dffa215e64db7fde9e6422a4698',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['updaterate_2',['updateRate',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a4139d5f422025cbb3f457ad66c78ef82',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]]
 ];

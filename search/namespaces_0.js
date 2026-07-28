@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['editor_0',['Editor',['../namespace_joshuakery_1_1_rlmgtoolsmediaplayers_1_1_editor.html',1,'Joshuakery::Rlmgtoolsmediaplayers']]],
-  ['joshuakery_1',['Joshuakery',['../namespace_joshuakery.html',1,'']]],
-  ['rlmgtoolsmediaplayers_2',['Rlmgtoolsmediaplayers',['../namespace_joshuakery_1_1_rlmgtoolsmediaplayers.html',1,'Joshuakery']]]
+  ['mediaplayers_0',['MediaPlayers',['../namespacerlmg_1_1_tools_1_1_media_players.html',1,'rlmg::Tools']]],
+  ['rlmg_1',['rlmg',['../namespacerlmg.html',1,'']]],
+  ['tools_2',['Tools',['../namespacerlmg_1_1_tools.html',1,'rlmg']]]
 ];

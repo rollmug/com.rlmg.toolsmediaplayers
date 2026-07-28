@@ -51,8 +51,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_editor_example_8cs.html",
-"classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#af76a5d8f0337a105c9d0e28c07832002"
+"_image_sequence_loader_8cs.html",
+"classrlmg_1_1_tools_1_1_media_players_1_1my_sorter.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

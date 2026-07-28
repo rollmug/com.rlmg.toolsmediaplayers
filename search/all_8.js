@@ -1,16 +1,13 @@
 var searchData=
 [
-  ['loaderscount_0',['LoadersCount',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#a22cae2b3446bdff2e1839b580c2df0ca',1,'rlmg::Tools::MediaPlayers::MediaFileLoaderManager']]],
-  ['loadfailed_1',['LoadFailed',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#aade40eb875bbaa7709f9391283cd8e88',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['loadfinished_2',['LoadFinished',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a14cc0caf1436d8f9f4b4ad1984dc7ae2',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['loadingmethod_3',['loadingMethod',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a1e95f213361c9f2652ededdca095f080',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['loadingprogress_4',['LoadingProgress',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#ae2fdd5d1cfe300569f420f4afe03007f',1,'rlmg.Tools.MediaPlayers.ImageSequenceLoader.LoadingProgress()'],['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ac57254ddc87172c15b6fcaf4eda3eb44',1,'rlmg.Tools.MediaPlayers.MediaFileLoader.LoadingProgress()'],['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#afd4d2b5e21dfc6428800449a39202a8d',1,'rlmg.Tools.MediaPlayers.MediaFileLoaderManager.LoadingProgress()'],['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a04a240c5bf6db7692165bb7f58fe7088',1,'rlmg.Tools.MediaPlayers.VideoPlayerManager.LoadingProgress()']]],
-  ['loadmovie_5',['LoadMovie',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ac3f01c159de15b6f7df117431e200371',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['loadmovieroutine_6',['LoadMovieRoutine',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a73350f94df2a8ede796dd0a6e2acf69d',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['loadroutine_7',['loadRoutine',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a58b60370dd134f65b5fc237e3bd05d9c',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
-  ['loadstarting_8',['LoadStarting',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ad888babe4b192c29f72c055c5dbf59fc',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['loadsucceeded_9',['LoadSucceeded',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ac188e921a9265e5e821f00794c25211e',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['loadvideo_10',['LoadVideo',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a4a09407bf6fea3bcf238de08e2d1f5f9',1,'rlmg.Tools.MediaPlayers.VideoPlayerManager.LoadVideo(string videoPath)'],['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a2f466585294cbd98d07b6ca88f3fb159',1,'rlmg.Tools.MediaPlayers.VideoPlayerManager.LoadVideo()']]],
-  ['loadvideoclip_11',['LoadVideoClip',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a2e6d0e37f8884c5acec116487638367a',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
-  ['loadvideoroutine_12',['LoadVideoRoutine',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a12a06b34d38aaad29c0928617f5d9283',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]]
+  ['mainloadmedia_0',['MainLoadMedia',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a0939b863f363c3dd7f18629c78f2a84e',1,'rlmg.Tools.MediaPlayers.ImageSequenceLoader.MainLoadMedia()'],['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ae8ee0c28f4f800db1e44bdf3849672fb',1,'rlmg.Tools.MediaPlayers.MediaFileLoader.MainLoadMedia()']]],
+  ['managedloaders_1',['managedLoaders',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#a4e3ed9b5c5420a1a3a84154a25f09e85',1,'rlmg::Tools::MediaPlayers::MediaFileLoaderManager']]],
+  ['mediafileloader_2',['MediaFileLoader',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html',1,'rlmg::Tools::MediaPlayers']]],
+  ['mediafileloader_2ecs_3',['MediaFileLoader.cs',['../_media_file_loader_8cs.html',1,'']]],
+  ['mediafileloadermanager_4',['MediaFileLoaderManager',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html',1,'rlmg::Tools::MediaPlayers']]],
+  ['mediafileloadermanager_2ecs_5',['MediaFileLoaderManager.cs',['../_media_file_loader_manager_8cs.html',1,'']]],
+  ['medialoadingmethod_6',['MediaLoadingMethod',['../namespacerlmg_1_1_tools_1_1_media_players.html#a56de3470376fd4853103b5b528cbd491',1,'rlmg::Tools::MediaPlayers']]],
+  ['medialoadingmethod_2ecs_7',['MediaLoadingMethod.cs',['../_media_loading_method_8cs.html',1,'']]],
+  ['moviepath_8',['moviePath',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a411464516e1ed400662cfccd52c225e2',1,'rlmg.Tools.MediaPlayers.ImageSequenceLoader.moviePath()'],['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a5e3ba5a3e1379362971d434c7bd8667f',1,'rlmg.Tools.MediaPlayers.MediaFileLoader.moviePath()']]],
+  ['mysorter_9',['mySorter',['../classrlmg_1_1_tools_1_1_media_players_1_1my_sorter.html',1,'rlmg::Tools::MediaPlayers']]]
 ];

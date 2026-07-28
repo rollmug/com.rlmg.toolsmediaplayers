@@ -1,13 +1,9 @@
 var searchData=
 [
-  ['ondestroy_0',['OnDestroy',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a31212b0bc1a7524a326caed95cc8bc00',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]],
-  ['ondragged_1',['OnDragged',['../class_video_player_u_i___seek.html#a17ecd90507b8547d853be383866df36f',1,'VideoPlayerUI_Seek']]],
-  ['onenable_2',['OnEnable',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a081102adf5c3f16fb492361c1ed7b52f',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
-  ['onfirstframereached_3',['onFirstFrameReached',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#aa1c89770d890c2800cd183cd472f3ffe',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
-  ['onlastframereached_4',['onLastFrameReached',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a85d096c54681010cb3e6c1081fb28715',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
-  ['onpointerdown_5',['OnPointerDown',['../class_video_player_u_i___seek.html#a4c09c92349bf58e8c4e122aba306eebb',1,'VideoPlayerUI_Seek']]],
-  ['onpointerup_6',['OnPointerUp',['../class_video_player_u_i___seek.html#ae5792ff5dba1619c12da571f86b747bd',1,'VideoPlayerUI_Seek']]],
-  ['onupdatetime_7',['OnUpdateTime',['../class_video_player_u_i___time.html#a35da9337ae92a77e3965a85b9cf031be',1,'VideoPlayerUI_Time']]],
-  ['orderedloaders_8',['orderedLoaders',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#a67dee741c7e5b226b6a0c9457462192b',1,'rlmg::Tools::MediaPlayers::MediaFileLoaderManager']]],
-  ['overrideloadingmethod_9',['overrideLoadingMethod',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#a821ee4af1cd2eb1f7be93b6799e8972f',1,'rlmg::Tools::MediaPlayers::MediaFileLoaderManager']]]
+  ['pause_0',['Pause',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#ad678fa057eca4e15d7dd3f5898c34b60',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['pauseicon_1',['pauseIcon',['../class_video_player_u_i___play_pause.html#a4f245f9a4fb131ebe5dca0ba3687cf61',1,'VideoPlayerUI_PlayPause']]],
+  ['percent_2',['Percent',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a591fb5931962d50dbf6f7be51f69c08f',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['play_3',['Play',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a9570a11f8a88db1a77482ca30584b933',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['player_4',['player',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#ac8607dba1f237ad8112f6e5b2577a340',1,'rlmg.Tools.MediaPlayers.ImageSequenceLoader.player()'],['../class_video_player_u_i___base.html#abc1cd9101a7a3d110db6d7b34c5969b1',1,'VideoPlayerUI_Base.player()']]],
+  ['playicon_5',['playIcon',['../class_video_player_u_i___play_pause.html#a4a53697c834dfd8c19ae3906cba61027',1,'VideoPlayerUI_PlayPause']]]
 ];

@@ -1,12 +1,5 @@
 var annotated_dup =
 [
-    [ "Joshuakery", "namespace_joshuakery.html", [
-      [ "Rlmgtoolsmediaplayers", "namespace_joshuakery_1_1_rlmgtoolsmediaplayers.html", [
-        [ "Editor", "namespace_joshuakery_1_1_rlmgtoolsmediaplayers_1_1_editor.html", [
-          [ "MyPublicEditorExampleClass", "class_joshuakery_1_1_rlmgtoolsmediaplayers_1_1_editor_1_1_my_public_editor_example_class.html", "class_joshuakery_1_1_rlmgtoolsmediaplayers_1_1_editor_1_1_my_public_editor_example_class" ]
-        ] ]
-      ] ]
-    ] ],
     [ "rlmg", "namespacerlmg.html", [
       [ "Tools", "namespacerlmg_1_1_tools.html", [
         [ "MediaPlayers", "namespacerlmg_1_1_tools_1_1_media_players.html", [

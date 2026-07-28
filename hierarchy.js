@@ -29,6 +29,5 @@ var hierarchy =
       [ "rlmg.Tools.MediaPlayers.MediaFileLoader", "classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html", null ],
       [ "rlmg.Tools.MediaPlayers.MediaFileLoaderManager", "classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html", null ],
       [ "rlmg.Tools.MediaPlayers.VideoPlayerManager", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html", null ]
-    ] ],
-    [ "Joshuakery.Rlmgtoolsmediaplayers.Editor.MyPublicEditorExampleClass", "class_joshuakery_1_1_rlmgtoolsmediaplayers_1_1_editor_1_1_my_public_editor_example_class.html", null ]
+    ] ]
 ];
