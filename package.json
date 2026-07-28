@@ -31,7 +31,7 @@
     },
     {
       "displayName": "Video Player Loading Example",
-      "description": "Demonstrates loading a video at runtime with VideoPlayerManager.",
+      "description": "Demonstrates loading a video at runtime with VideoPlayerManager. Import the included Streaming Assets package to use this Sample.",
       "path": "Samples~/Video Player Loading Example"
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "displayName": "Image Sequence Loader Example",
-      "description": "Demonstrates use of ImageSequenceLoader, a companion component for ImageSequencePlayer that loads image files to the player at runtime.",
+      "description": "Demonstrates use of ImageSequenceLoader, a companion component for ImageSequencePlayer that loads image files to the player at runtime. Import the included Streaming Assets package to use this Sample.",
       "path": "Samples~/Image Sequence Loader Example"
     }
   ]

@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: RLMG.Tools_mediaplayers.Samples::rlmg.Tools.MediaPlayers.Examples.ExampleVideoPlayerLoading
   videoPlayerManager: {fileID: 1288694028}
-  videoFileSubPath: 'Video Player Loading Example/test-countdown.mp4 '
+  videoFileSubPath: 'RLMG Media Players Examples Assets/Video Player Loading Example/test-countdown.mp4 '
 --- !u!4 &212239800
 Transform:
   m_ObjectHideFlags: 0

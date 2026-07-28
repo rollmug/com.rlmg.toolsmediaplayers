@@ -727,7 +727,7 @@ MonoBehaviour:
   LoadFinished:
     m_PersistentCalls:
       m_Calls: []
-  framesFolder: Image Sequence Loader Example
+  framesFolder: RLMG Media Players Examples Assets/Image Sequence Loader Example
   streamingAssetsUseAsync: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
