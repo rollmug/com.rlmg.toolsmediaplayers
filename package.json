@@ -7,11 +7,10 @@
   "description": "Replace this with your own description of the package. \n\nFor best results, use this text to summarize: \n\u25aa What the package does \n\u25aa How it can benefit the user \n\nNote: Special formatting characters are supported, including line breaks ('\\n') and bullets ('\\u25AA').",
   "dependencies": {
     "com.unity.test-framework": "1.6.0",
-    "com.unity.textmeshpro": "3.0.6",
-    "com.rlmg.toolscontentloading": "0.2.1"
+    "com.unity.textmeshpro": "3.0.6"
   },
   "gitDependencies": {
-    "com.rlmg.toolscontentloading": "https://github.com/rollmug/com.rlmg.toolscontentloading.git"
+    "com.rlmg.toolscontentloading": "https://github.com/rollmug/com.rlmg.toolscontentloading.git#0.2.1"
   },
   "author": {
     "name": "RLMG",
