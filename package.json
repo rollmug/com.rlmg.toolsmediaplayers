@@ -12,9 +12,6 @@
   "gitDependencies": {
     "com.rlmg.toolscontentloading": "https://github.com/rollmug/com.rlmg.toolscontentloading.git"
   },
-  "gitDependencies": {
-    "com.rlmg.toolscontentloading": "https://github.com/rollmug/com.rlmg.toolscontentloading.git"
-  },
   "author": {
     "name": "RLMG",
     "url": "http://www.rlmg.com",
