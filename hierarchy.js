@@ -11,23 +11,23 @@ var hierarchy =
       [ "rlmg.Tools.MediaPlayers.VideoPlayerManager", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html", null ]
     ] ],
     [ "IPointerDownHandler", null, [
-      [ "VideoPlayerUI_Seek", "class_video_player_u_i___seek.html", null ]
+      [ "rlmg.Tools.MediaPlayers.VideoPlayerUI_Seek", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___seek.html", null ]
     ] ],
     [ "IPointerUpHandler", null, [
-      [ "VideoPlayerUI_Seek", "class_video_player_u_i___seek.html", null ]
+      [ "rlmg.Tools.MediaPlayers.VideoPlayerUI_Seek", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___seek.html", null ]
     ] ],
     [ "MonoBehaviour", null, [
-      [ "SliderMaskedFillHelper", "class_slider_masked_fill_helper.html", null ],
-      [ "VideoPlayerUI_Base", "class_video_player_u_i___base.html", [
-        [ "VideoPlayerUI_PlayPause", "class_video_player_u_i___play_pause.html", null ],
-        [ "VideoPlayerUI_Seek", "class_video_player_u_i___seek.html", null ],
-        [ "VideoPlayerUI_Time", "class_video_player_u_i___time.html", null ],
-        [ "VideoPlayerUI_Viewport", "class_video_player_u_i___viewport.html", null ]
-      ] ],
-      [ "VideoStreamingAssetURLHelper", "class_video_streaming_asset_u_r_l_helper.html", null ],
       [ "rlmg.Tools.MediaPlayers.ImageSequencePlayer", "classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html", null ],
+      [ "rlmg.Tools.MediaPlayers.ImageSequenceScrubber", "classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_scrubber.html", null ],
       [ "rlmg.Tools.MediaPlayers.MediaFileLoader", "classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html", null ],
       [ "rlmg.Tools.MediaPlayers.MediaFileLoaderManager", "classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html", null ],
-      [ "rlmg.Tools.MediaPlayers.VideoPlayerManager", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html", null ]
+      [ "rlmg.Tools.MediaPlayers.VideoPlayerManager", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html", null ],
+      [ "rlmg.Tools.MediaPlayers.VideoPlayerUI_Base", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___base.html", [
+        [ "rlmg.Tools.MediaPlayers.VideoPlayerUI_PlayPause", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___play_pause.html", null ],
+        [ "rlmg.Tools.MediaPlayers.VideoPlayerUI_Seek", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___seek.html", null ],
+        [ "rlmg.Tools.MediaPlayers.VideoPlayerUI_Time", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___time.html", null ],
+        [ "rlmg.Tools.MediaPlayers.VideoPlayerUI_Viewport", "classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___viewport.html", null ]
+      ] ],
+      [ "rlmg.Tools.MediaPlayers.VideoStreamingAssetURLHelper", "classrlmg_1_1_tools_1_1_media_players_1_1_video_streaming_asset_u_r_l_helper.html", null ]
     ] ]
 ];

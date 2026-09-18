@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['didloadsucceed_0',['DidLoadSucceed',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ac49dc09948b7af5a7e5daa7a905d39cb',1,'rlmg.Tools.MediaPlayers.MediaFileLoader.DidLoadSucceed()'],['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#aa1513082bb7fdaf732728e40c81d94ad',1,'rlmg.Tools.MediaPlayers.VideoPlayerManager.DidLoadSucceed()']]],
-  ['dofadeifloading_1',['doFadeIfLoading',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#af76a5d8f0337a105c9d0e28c07832002',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
-  ['dofindallloadersatruntime_2',['doFindAllLoadersAtRuntime',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#a3ed31291bc577668aa337de12dff5f6c',1,'rlmg::Tools::MediaPlayers::MediaFileLoaderManager']]],
-  ['doloadmovie_3',['doLoadMovie',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a43f657dd4328709d869887719d573381',1,'rlmg::Tools::MediaPlayers::MediaFileLoader']]],
-  ['doloop_4',['doLoop',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a86c052a1743fef223896b5b8e58fc72b',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
-  ['dontfadeupifpaused_5',['dontFadeUpIfPaused',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a235bc469d3807e04d33463adee0d6637',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
-  ['doplayonloaded_6',['doPlayOnLoaded',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#ac1962ce36d1f2bffc8519c4f133aaad1',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
-  ['doreverse_7',['doReverse',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#aa7b819df57e76547f6009b188d717a8c',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]]
+  ['fadeendcolor_0',['fadeEndColor',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#ac6d95bbc2dd94a14ae720bd1140238fd',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
+  ['fadeonloadduration_1',['fadeOnLoadDuration',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a7ae1e3090ac7721a76a72a0b5034d8e7',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
+  ['fadestartcolor_2',['fadeStartColor',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a0259ec92983d60559d03335212feb5dc',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
+  ['fadeuproutine_3',['fadeUpRoutine',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#aa56c0372ddb8eae6224eeb38bd3dc061',1,'rlmg::Tools::MediaPlayers::VideoPlayerManager']]],
+  ['finishedseekinggraceframes_4',['finishedSeekingGraceFrames',['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___seek.html#a4d83015445895d36066742150c833781',1,'rlmg::Tools::MediaPlayers::VideoPlayerUI_Seek']]],
+  ['frames_5',['frames',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a07307944bdf8923f932328f8831d5e07',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['framesfolder_6',['framesFolder',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a2aedc2779aed02015526bf80c72496c1',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]]
 ];

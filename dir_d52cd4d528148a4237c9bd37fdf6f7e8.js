@@ -6,5 +6,6 @@ var dir_d52cd4d528148a4237c9bd37fdf6f7e8 =
     [ "MediaFileLoader.cs", "_media_file_loader_8cs.html", "_media_file_loader_8cs" ],
     [ "MediaFileLoaderManager.cs", "_media_file_loader_manager_8cs.html", "_media_file_loader_manager_8cs" ],
     [ "MediaLoadingMethod.cs", "_media_loading_method_8cs.html", "_media_loading_method_8cs" ],
-    [ "VideoPlayerManager.cs", "_video_player_manager_8cs.html", "_video_player_manager_8cs" ]
+    [ "VideoPlayerManager.cs", "_video_player_manager_8cs.html", "_video_player_manager_8cs" ],
+    [ "VideoStreamingAssetURLHelper.cs", "_video_streaming_asset_u_r_l_helper_8cs.html", "_video_streaming_asset_u_r_l_helper_8cs" ]
 ];

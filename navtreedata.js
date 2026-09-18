@@ -52,7 +52,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_image_sequence_loader_8cs.html",
-"classrlmg_1_1_tools_1_1_media_players_1_1my_sorter.html"
+"classrlmg_1_1_tools_1_1_media_players_1_1_video_player_u_i___time.html#afa4e95ba68000c9f7263bccd9ab5a401"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

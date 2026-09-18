@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pauseicon_0',['pauseIcon',['../class_video_player_u_i___play_pause.html#a4f245f9a4fb131ebe5dca0ba3687cf61',1,'VideoPlayerUI_PlayPause']]],
-  ['player_1',['player',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#ac8607dba1f237ad8112f6e5b2577a340',1,'rlmg.Tools.MediaPlayers.ImageSequenceLoader.player()'],['../class_video_player_u_i___base.html#abc1cd9101a7a3d110db6d7b34c5969b1',1,'VideoPlayerUI_Base.player()']]],
-  ['playicon_2',['playIcon',['../class_video_player_u_i___play_pause.html#a4a53697c834dfd8c19ae3906cba61027',1,'VideoPlayerUI_PlayPause']]]
+  ['spriterenderer_0',['spriteRenderer',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a83c075d319d63907f8c028a9b40b14fd',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['streamingassetsuseasync_1',['streamingAssetsUseAsync',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a322c84b1cc4cf2172d912a7a95274a4c',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]]
 ];

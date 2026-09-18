@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['excludedloaders_0',['excludedLoaders',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#a3e6f5f6b81bce357f4452aded8facaf5',1,'rlmg::Tools::MediaPlayers::MediaFileLoaderManager']]]
+  ['isloading_0',['isLoading',['../classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a804dd0056cad4e888bd3ece4167e813c',1,'rlmg.Tools.MediaPlayers.MediaFileLoader.isLoading()'],['../classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a1fca3c088326b67f274deaae8756627b',1,'rlmg.Tools.MediaPlayers.VideoPlayerManager.isLoading()']]]
 ];
