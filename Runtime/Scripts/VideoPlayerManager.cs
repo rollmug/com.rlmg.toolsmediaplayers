@@ -12,6 +12,7 @@
     /// 1. Explicit control over video loading, with option to load 
     /// </summary>
     [RequireComponent(typeof(VideoPlayer))]
+    [DefaultExecutionOrder(-10)]
     public class VideoPlayerManager : MonoBehaviour, ILoadingProgressTracker
     {
         /// <summary>
@@ -29,19 +30,22 @@
         /// Whether or not the video should play once it's loaded; if false, the video will load its first frame and pause.
         /// </summary>
         [SerializeField]
+        [Tooltip("Whether or not the video should play whenever it's relaoded; if false, the video will load its first frame and pause.")]
         protected bool doPlayOnLoaded = true;
 
+        [Header("Fade On Load Settings")]
         /// <summary>
         /// If true, viewport will dip to fade color (black by default) while VideoPlayer is loading
         /// </summary>
-        [Header("Fade On Load Settings")]
         [SerializeField]
+        [Tooltip("If true, viewport will dip to fade color (black by default) while VideoPlayer is loading")]
         protected bool doFadeIfLoading = true;
         
         /// <summary>
         /// If true, video will not fade up after loading while it remains paused. Playing the video will cause the video to fade up.
         /// </summary>
         [SerializeField]
+        [Tooltip("If true, video will not fade up after loading while it remains paused. Playing the video will cause the video to fade up.")]
         protected bool dontFadeUpIfPaused = false;
 
         /// <summary>
@@ -123,27 +127,32 @@
         {
             VideoPlayer = GetComponent<VideoPlayer>();
 
-            if (regenerateRenderTexture &&
-                VideoPlayer != null)
+            if (VideoPlayer == null)
+            {
+                Debug.LogError("[VideoPlayerManager] Can't find VideoPlayer.");
+                return;
+            }
+
+            if (regenerateRenderTexture)
             {
                 VideoPlayer.targetTexture = new RenderTexture(
                     (int)regeneratedRenderTextureSize.x,
                     (int)regeneratedRenderTextureSize.y, 24);
 
-                viewportImage.texture = VideoPlayer.targetTexture;
+                if (viewportImage != null)
+                    viewportImage.texture = VideoPlayer.targetTexture;
             }
+
+            if (!doPlayOnLoaded)
+                VideoPlayer.playOnAwake = false;
 
             if (doFadeIfLoading &&
                 viewportImage != null)
             {
                 viewportImage.color = fadeStartColor;
-
-                if (VideoPlayer != null &&
-                    VideoPlayer.playOnAwake)
-                {
-                    FadeUp();
-                }
             }
+
+            LoadVideo();
         }
 
         protected virtual void OnEnable()
@@ -157,8 +166,16 @@
         /// <param name="videoPath"></param>
         public virtual void LoadVideo(string videoPath)
         {
+            if (loadRoutine != null)
+            {
+                StopCoroutine(loadRoutine);
+                loadRoutine = null;
+            }
+
             if (VideoPlayer == null)
                 return;
+
+            VideoPlayer.Stop();
             
             VideoPlayer.source = VideoSource.Url;
             VideoPlayer.url = videoPath;
@@ -172,8 +189,16 @@
         /// <param name="videoClip"></param>
         public virtual void LoadVideoClip(VideoClip videoClip)
         {
+            if (loadRoutine != null)
+            {
+                StopCoroutine(loadRoutine);
+                loadRoutine = null;
+            }
+                
             if (VideoPlayer == null)
                 return;
+
+            VideoPlayer.Stop();
 
             VideoPlayer.source = VideoSource.VideoClip;
             VideoPlayer.clip = videoClip;
@@ -187,7 +212,19 @@
         protected virtual void LoadVideo()
         {
             if (loadRoutine != null)
+            {
                 StopCoroutine(loadRoutine);
+                loadRoutine = null;
+            }
+
+            if (VideoPlayer == null)
+            {
+                isLoading = false;
+                DidLoadSucceed = false;
+                return;
+            }
+
+            VideoPlayer.Stop();
 
             isLoading = true;
             DidLoadSucceed = false;

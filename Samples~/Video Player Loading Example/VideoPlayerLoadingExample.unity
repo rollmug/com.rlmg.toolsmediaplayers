@@ -128,7 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 212239800}
-  - component: {fileID: 212239799}
+  - component: {fileID: 212239802}
   m_Layer: 0
   m_Name: Video Player Setup
   m_TagString: Untagged
@@ -136,20 +136,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &212239799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 212239798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d92df2793e5570d4dad3dec2aab66b01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: RLMG.Tools_mediaplayers.Samples::rlmg.Tools.MediaPlayers.Examples.ExampleVideoPlayerLoading
-  videoPlayerManager: {fileID: 1288694028}
-  videoFileSubPath: 'RLMG Media Players Examples Assets/Video Player Loading Example/test-countdown.mp4 '
 --- !u!4 &212239800
 Transform:
   m_ObjectHideFlags: 0
@@ -165,6 +151,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &212239802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212239798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f4aceb5c1e148eda03f12d69c7227f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: RLMG.Tools_mediaplayers.Samples::rlmg.Tools.MediaPlayers.Examples.ExampleVideoPlayerLoading
+  videoPlayerManager: {fileID: 1288694028}
+  videoFileSubPath: RLMG Media Players Examples Assets/Video Player Loading Example/test-countdown.mp4
 --- !u!1 &297619940
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +427,10 @@ PrefabInstance:
     - target: {fileID: 1000013594102034, guid: 4e6d6e4dad7c5cc498fdf459fa2fa874, type: 3}
       propertyPath: m_Name
       value: VideoPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 114292820309900852, guid: 4e6d6e4dad7c5cc498fdf459fa2fa874, type: 3}
+      propertyPath: doPlayOnLoaded
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114292820309900852, guid: 4e6d6e4dad7c5cc498fdf459fa2fa874, type: 3}
       propertyPath: regenerateRenderTexture
