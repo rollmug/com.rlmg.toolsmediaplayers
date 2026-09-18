@@ -33,7 +33,7 @@ RectTransform:
   m_Father: {fileID: 224000012378342714}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcddc2605b96841ed95c705c9296c222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2960035269378121628}
   finishedSeekingGraceFrames: 10
 --- !u!1 &1000011700251936
 GameObject:
@@ -297,7 +297,7 @@ RectTransform:
   m_Father: {fileID: 224000012860534854}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 854.0825, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -391,11 +391,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6d013927ee745968da525e44b64995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2960035269378121628}
   buttonIconImage: {fileID: 114000011399835168}
   playIcon: {fileID: 21300000, guid: 30fe4cc5b794f4dd2acda5e914e86988, type: 3}
   replayIcon: {fileID: 21300000, guid: b1da1c028f9364fd4b779bbef2e8a95a, type: 3}
-  pauseIcon: {fileID: 21300000, guid: 75320dc2646b54c28ae6fa3d9c846cd3, type: 3}
+  pauseIcon: {fileID: 21300000, guid: 3ba7aa524fb6c40f1a0c19b7e7c78e9f, type: 3}
   allowPausing: 1
 --- !u!114 &114000010893811442
 MonoBehaviour:

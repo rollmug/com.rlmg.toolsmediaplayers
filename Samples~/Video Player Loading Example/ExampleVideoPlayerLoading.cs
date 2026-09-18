@@ -2,7 +2,6 @@ namespace rlmg.Tools.MediaPlayers.Examples
 {
     using System.IO;
     using UnityEngine;
-    using rlmg.Tools.MediaPlayers;
 
     public class ExampleVideoPlayerLoading : MonoBehaviour
     {
