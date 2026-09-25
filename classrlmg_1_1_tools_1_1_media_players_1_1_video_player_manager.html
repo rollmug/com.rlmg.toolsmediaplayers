@@ -123,9 +123,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae164f0d489472d70726b760f6ea8edfb"><td class="memItemLeft" align="right" valign="top">VideoPlayer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#ae164f0d489472d70726b760f6ea8edfb">VideoPlayer</a></td></tr>
 <tr class="memdesc:ae164f0d489472d70726b760f6ea8edfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Native VideoPlayer component to manage.  <br /></td></tr>
 <tr class="separator:ae164f0d489472d70726b760f6ea8edfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1513082bb7fdaf732728e40c81d94ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#aa1513082bb7fdaf732728e40c81d94ad">DidLoadSucceed</a></td></tr>
-<tr class="memdesc:aa1513082bb7fdaf732728e40c81d94ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Did video load successfully?  <br /></td></tr>
-<tr class="separator:aa1513082bb7fdaf732728e40c81d94ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -191,18 +188,20 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aa56c0372ddb8eae6224eeb38bd3dc061"><td class="memItemLeft" align="right" valign="top">Coroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#aa56c0372ddb8eae6224eeb38bd3dc061">fadeUpRoutine</a></td></tr>
 <tr class="memdesc:aa56c0372ddb8eae6224eeb38bd3dc061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coroutine used for dip to/from fade color.  <br /></td></tr>
 <tr class="separator:aa56c0372ddb8eae6224eeb38bd3dc061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fca3c088326b67f274deaae8756627b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a1fca3c088326b67f274deaae8756627b">isLoading</a></td></tr>
-<tr class="memdesc:a1fca3c088326b67f274deaae8756627b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for loading video; true if video is loading.  <br /></td></tr>
-<tr class="separator:a1fca3c088326b67f274deaae8756627b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa68e3741a76993de0d33885f67097e"><td class="memItemLeft" align="right" valign="top">LoadStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a4aa68e3741a76993de0d33885f67097e">currentStatus</a> = LoadStatus.NotYetLoaded</td></tr>
+<tr class="memdesc:a4aa68e3741a76993de0d33885f67097e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current video loading status.  <br /></td></tr>
+<tr class="separator:a4aa68e3741a76993de0d33885f67097e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:aa1513082bb7fdaf732728e40c81d94ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#aa1513082bb7fdaf732728e40c81d94ad">DidLoadSucceed</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa1513082bb7fdaf732728e40c81d94ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Did video load successfully?  <br /></td></tr>
+<tr class="separator:aa1513082bb7fdaf732728e40c81d94ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04a240c5bf6db7692165bb7f58fe7088"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a04a240c5bf6db7692165bb7f58fe7088">LoadingProgress</a><code> [get]</code></td></tr>
 <tr class="memdesc:a04a240c5bf6db7692165bb7f58fe7088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress fraction for video loading.  <br /></td></tr>
 <tr class="separator:a04a240c5bf6db7692165bb7f58fe7088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cc4a7a385e7eb3e310eabab2d8d3491"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#a6cc4a7a385e7eb3e310eabab2d8d3491">IsLoading</a><code> [get]</code></td></tr>
-<tr class="memdesc:a6cc4a7a385e7eb3e310eabab2d8d3491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is video loading?  <br /></td></tr>
-<tr class="separator:a6cc4a7a385e7eb3e310eabab2d8d3491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa856494437bbb12a47399234c763f9aa"><td class="memItemLeft" align="right" valign="top">virtual LoadStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html#aa856494437bbb12a47399234c763f9aa">CurrentStatus</a><code> [get]</code></td></tr>
+<tr class="separator:aa856494437bbb12a47399234c763f9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base video player manager. </p>
@@ -519,19 +518,27 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa1513082bb7fdaf732728e40c81d94ad" name="aa1513082bb7fdaf732728e40c81d94ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1513082bb7fdaf732728e40c81d94ad">&#9670;&#160;</a></span>DidLoadSucceed</h2>
+<a id="a4aa68e3741a76993de0d33885f67097e" name="a4aa68e3741a76993de0d33885f67097e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aa68e3741a76993de0d33885f67097e">&#9670;&#160;</a></span>currentStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool rlmg.Tools.MediaPlayers.VideoPlayerManager.DidLoadSucceed</td>
+          <td class="memname">LoadStatus rlmg.Tools.MediaPlayers.VideoPlayerManager.currentStatus = LoadStatus.NotYetLoaded</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Did video load successfully? </p>
+<p>Current video loading status. </p>
 
 </div>
 </div>
@@ -704,30 +711,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a1fca3c088326b67f274deaae8756627b" name="a1fca3c088326b67f274deaae8756627b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fca3c088326b67f274deaae8756627b">&#9670;&#160;</a></span>isLoading</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool rlmg.Tools.MediaPlayers.VideoPlayerManager.isLoading</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Used for loading video; true if video is loading. </p>
-
-</div>
-</div>
 <a id="a58b60370dd134f65b5fc237e3bd05d9c" name="a58b60370dd134f65b5fc237e3bd05d9c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58b60370dd134f65b5fc237e3bd05d9c">&#9670;&#160;</a></span>loadRoutine</h2>
 
@@ -865,8 +848,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a6cc4a7a385e7eb3e310eabab2d8d3491" name="a6cc4a7a385e7eb3e310eabab2d8d3491"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cc4a7a385e7eb3e310eabab2d8d3491">&#9670;&#160;</a></span>IsLoading</h2>
+<a id="aa856494437bbb12a47399234c763f9aa" name="aa856494437bbb12a47399234c763f9aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa856494437bbb12a47399234c763f9aa">&#9670;&#160;</a></span>CurrentStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -875,7 +858,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool rlmg.Tools.MediaPlayers.VideoPlayerManager.IsLoading</td>
+          <td class="memname">virtual LoadStatus rlmg.Tools.MediaPlayers.VideoPlayerManager.CurrentStatus</td>
         </tr>
       </table>
   </td>
@@ -885,7 +868,29 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Is video loading? </p>
+</div>
+</div>
+<a id="aa1513082bb7fdaf732728e40c81d94ad" name="aa1513082bb7fdaf732728e40c81d94ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1513082bb7fdaf732728e40c81d94ad">&#9670;&#160;</a></span>DidLoadSucceed</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rlmg.Tools.MediaPlayers.VideoPlayerManager.DidLoadSucceed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Did video load successfully? </p>
 
 </div>
 </div>
@@ -923,7 +928,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacerlmg.html">rlmg</a></li><li class="navelem"><a class="el" href="namespacerlmg_1_1_tools.html">Tools</a></li><li class="navelem"><a class="el" href="namespacerlmg_1_1_tools_1_1_media_players.html">MediaPlayers</a></li><li class="navelem"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_video_player_manager.html">VideoPlayerManager</a></li>
-    <li class="footer">Generated on Tue Sep 22 2026 13:45:12 for RLMG Tools - Media Players by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Fri Sep 25 2026 20:19:19 for RLMG Tools - Media Players by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

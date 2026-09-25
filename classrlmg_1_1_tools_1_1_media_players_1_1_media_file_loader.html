@@ -126,9 +126,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac49dc09948b7af5a7e5daa7a905d39cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ac49dc09948b7af5a7e5daa7a905d39cb">DidLoadSucceed</a> = false</td></tr>
-<tr class="memdesc:ac49dc09948b7af5a7e5daa7a905d39cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is set to true after loading the movie the first time.  <br /></td></tr>
-<tr class="separator:ac49dc09948b7af5a7e5daa7a905d39cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad888babe4b192c29f72c055c5dbf59fc"><td class="memItemLeft" align="right" valign="top">UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ad888babe4b192c29f72c055c5dbf59fc">LoadStarting</a></td></tr>
 <tr class="separator:ad888babe4b192c29f72c055c5dbf59fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac188e921a9265e5e821f00794c25211e"><td class="memItemLeft" align="right" valign="top">UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ac188e921a9265e5e821f00794c25211e">LoadSucceeded</a></td></tr>
@@ -154,20 +151,23 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a43f657dd4328709d869887719d573381"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a43f657dd4328709d869887719d573381">doLoadMovie</a> = true</td></tr>
 <tr class="memdesc:a43f657dd4328709d869887719d573381"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false, LoadMovieRoutine completes without calling the loading methods.  <br /></td></tr>
 <tr class="separator:a43f657dd4328709d869887719d573381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804dd0056cad4e888bd3ece4167e813c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a804dd0056cad4e888bd3ece4167e813c">isLoading</a></td></tr>
-<tr class="separator:a804dd0056cad4e888bd3ece4167e813c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3296164f160c1871f1eae9269464eb41"><td class="memItemLeft" align="right" valign="top">LoadStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a3296164f160c1871f1eae9269464eb41">currentStatus</a> = LoadStatus.NotYetLoaded</td></tr>
+<tr class="separator:a3296164f160c1871f1eae9269464eb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a0db084d1b43da82f6d877c86ee9bcd1e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a0db084d1b43da82f6d877c86ee9bcd1e">DoLoadOnAwake</a><code> [get]</code></td></tr>
 <tr class="separator:a0db084d1b43da82f6d877c86ee9bcd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5be90ce0a9857d5c57296697c55749a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ad5be90ce0a9857d5c57296697c55749a">DidLoadSucceed</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad5be90ce0a9857d5c57296697c55749a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is set to true after loading the movie the first time.  <br /></td></tr>
+<tr class="separator:ad5be90ce0a9857d5c57296697c55749a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e3ba5a3e1379362971d434c7bd8667f"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a5e3ba5a3e1379362971d434c7bd8667f">moviePath</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5e3ba5a3e1379362971d434c7bd8667f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to directory where image sequence should be looked for.  <br /></td></tr>
 <tr class="separator:a5e3ba5a3e1379362971d434c7bd8667f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac57254ddc87172c15b6fcaf4eda3eb44"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#ac57254ddc87172c15b6fcaf4eda3eb44">LoadingProgress</a><code> [get]</code></td></tr>
 <tr class="separator:ac57254ddc87172c15b6fcaf4eda3eb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8490596bfd6ed95a3f1a4908b4fd05d8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a8490596bfd6ed95a3f1a4908b4fd05d8">IsLoading</a><code> [get]</code></td></tr>
-<tr class="separator:a8490596bfd6ed95a3f1a4908b4fd05d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e384dba605c507f954331bed5c01293"><td class="memItemLeft" align="right" valign="top">virtual LoadStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html#a7e384dba605c507f954331bed5c01293">CurrentStatus</a><code> [get]</code></td></tr>
+<tr class="separator:a7e384dba605c507f954331bed5c01293"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A base class for loading media, usually for a playback manager. </p>
@@ -330,19 +330,25 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac49dc09948b7af5a7e5daa7a905d39cb" name="ac49dc09948b7af5a7e5daa7a905d39cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac49dc09948b7af5a7e5daa7a905d39cb">&#9670;&#160;</a></span>DidLoadSucceed</h2>
+<a id="a3296164f160c1871f1eae9269464eb41" name="a3296164f160c1871f1eae9269464eb41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3296164f160c1871f1eae9269464eb41">&#9670;&#160;</a></span>currentStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool rlmg.Tools.MediaPlayers.MediaFileLoader.DidLoadSucceed = false</td>
+          <td class="memname">LoadStatus rlmg.Tools.MediaPlayers.MediaFileLoader.currentStatus = LoadStatus.NotYetLoaded</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Is set to true after loading the movie the first time. </p>
 
 </div>
 </div>
@@ -367,28 +373,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If false, LoadMovieRoutine completes without calling the loading methods. </p>
-
-</div>
-</div>
-<a id="a804dd0056cad4e888bd3ece4167e813c" name="a804dd0056cad4e888bd3ece4167e813c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a804dd0056cad4e888bd3ece4167e813c">&#9670;&#160;</a></span>isLoading</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool rlmg.Tools.MediaPlayers.MediaFileLoader.isLoading</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -473,8 +457,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a0db084d1b43da82f6d877c86ee9bcd1e" name="a0db084d1b43da82f6d877c86ee9bcd1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0db084d1b43da82f6d877c86ee9bcd1e">&#9670;&#160;</a></span>DoLoadOnAwake</h2>
+<a id="a7e384dba605c507f954331bed5c01293" name="a7e384dba605c507f954331bed5c01293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e384dba605c507f954331bed5c01293">&#9670;&#160;</a></span>CurrentStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -483,7 +467,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool rlmg.Tools.MediaPlayers.MediaFileLoader.DoLoadOnAwake</td>
+          <td class="memname">virtual LoadStatus rlmg.Tools.MediaPlayers.MediaFileLoader.CurrentStatus</td>
         </tr>
       </table>
   </td>
@@ -495,8 +479,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a8490596bfd6ed95a3f1a4908b4fd05d8" name="a8490596bfd6ed95a3f1a4908b4fd05d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8490596bfd6ed95a3f1a4908b4fd05d8">&#9670;&#160;</a></span>IsLoading</h2>
+<a id="ad5be90ce0a9857d5c57296697c55749a" name="ad5be90ce0a9857d5c57296697c55749a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5be90ce0a9857d5c57296697c55749a">&#9670;&#160;</a></span>DidLoadSucceed</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +489,31 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool rlmg.Tools.MediaPlayers.MediaFileLoader.IsLoading</td>
+          <td class="memname">virtual bool rlmg.Tools.MediaPlayers.MediaFileLoader.DidLoadSucceed</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is set to true after loading the movie the first time. </p>
+
+</div>
+</div>
+<a id="a0db084d1b43da82f6d877c86ee9bcd1e" name="a0db084d1b43da82f6d877c86ee9bcd1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0db084d1b43da82f6d877c86ee9bcd1e">&#9670;&#160;</a></span>DoLoadOnAwake</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rlmg.Tools.MediaPlayers.MediaFileLoader.DoLoadOnAwake</td>
         </tr>
       </table>
   </td>
@@ -573,7 +581,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacerlmg.html">rlmg</a></li><li class="navelem"><a class="el" href="namespacerlmg_1_1_tools.html">Tools</a></li><li class="navelem"><a class="el" href="namespacerlmg_1_1_tools_1_1_media_players.html">MediaPlayers</a></li><li class="navelem"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader.html">MediaFileLoader</a></li>
-    <li class="footer">Generated on Tue Sep 22 2026 13:45:12 for RLMG Tools - Media Players by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Fri Sep 25 2026 20:19:19 for RLMG Tools - Media Players by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -145,9 +145,9 @@ Properties</h2></td></tr>
 <tr class="memitem:aab15a26af90d575be9d305f0d9c168bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#aab15a26af90d575be9d305f0d9c168bd">IsAnyLoaderActive</a><code> [get]</code></td></tr>
 <tr class="memdesc:aab15a26af90d575be9d305f0d9c168bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is any managed loader currently loading?  <br /></td></tr>
 <tr class="separator:aab15a26af90d575be9d305f0d9c168bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef40de35c7755950b87479484a431b39"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#aef40de35c7755950b87479484a431b39">IsLoading</a><code> [get]</code></td></tr>
-<tr class="memdesc:aef40de35c7755950b87479484a431b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is any managed loader currently loading?  <br /></td></tr>
-<tr class="separator:aef40de35c7755950b87479484a431b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55a3d83a29c5877d36b3599d691f0188"><td class="memItemLeft" align="right" valign="top">LoadStatus&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#a55a3d83a29c5877d36b3599d691f0188">CurrentStatus</a><code> [get]</code></td></tr>
+<tr class="memdesc:a55a3d83a29c5877d36b3599d691f0188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combined status of all managed loaders: Loading if any loader is loading; otherwise the status of the first loader (in managed order) that hasn't loaded or has failed; otherwise Succeeded.  <br /></td></tr>
+<tr class="separator:a55a3d83a29c5877d36b3599d691f0188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd4d2b5e21dfc6428800449a39202a8d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html#afd4d2b5e21dfc6428800449a39202a8d">LoadingProgress</a><code> [get]</code></td></tr>
 <tr class="memdesc:afd4d2b5e21dfc6428800449a39202a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loading progress towards the cumulative progress of all managed loaders.  <br /></td></tr>
 <tr class="separator:afd4d2b5e21dfc6428800449a39202a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -381,6 +381,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a55a3d83a29c5877d36b3599d691f0188" name="a55a3d83a29c5877d36b3599d691f0188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55a3d83a29c5877d36b3599d691f0188">&#9670;&#160;</a></span>CurrentStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LoadStatus rlmg.Tools.MediaPlayers.MediaFileLoaderManager.CurrentStatus</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Combined status of all managed loaders: Loading if any loader is loading; otherwise the status of the first loader (in managed order) that hasn't loaded or has failed; otherwise Succeeded. </p>
+
+</div>
+</div>
 <a id="aab15a26af90d575be9d305f0d9c168bd" name="aab15a26af90d575be9d305f0d9c168bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab15a26af90d575be9d305f0d9c168bd">&#9670;&#160;</a></span>IsAnyLoaderActive</h2>
 
@@ -392,30 +416,6 @@ Properties</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool rlmg.Tools.MediaPlayers.MediaFileLoaderManager.IsAnyLoaderActive</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Is any managed loader currently loading? </p>
-
-</div>
-</div>
-<a id="aef40de35c7755950b87479484a431b39" name="aef40de35c7755950b87479484a431b39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef40de35c7755950b87479484a431b39">&#9670;&#160;</a></span>IsLoading</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool rlmg.Tools.MediaPlayers.MediaFileLoaderManager.IsLoading</td>
         </tr>
       </table>
   </td>
@@ -486,7 +486,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacerlmg.html">rlmg</a></li><li class="navelem"><a class="el" href="namespacerlmg_1_1_tools.html">Tools</a></li><li class="navelem"><a class="el" href="namespacerlmg_1_1_tools_1_1_media_players.html">MediaPlayers</a></li><li class="navelem"><a class="el" href="classrlmg_1_1_tools_1_1_media_players_1_1_media_file_loader_manager.html">MediaFileLoaderManager</a></li>
-    <li class="footer">Generated on Tue Sep 22 2026 13:45:12 for RLMG Tools - Media Players by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+    <li class="footer">Generated on Fri Sep 25 2026 20:19:19 for RLMG Tools - Media Players by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
   </ul>
 </div>
 </body>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['spriterenderer_0',['spriteRenderer',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a83c075d319d63907f8c028a9b40b14fd',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
-  ['streamingassetsuseasync_1',['streamingAssetsUseAsync',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_loader.html#a322c84b1cc4cf2172d912a7a95274a4c',1,'rlmg::Tools::MediaPlayers::ImageSequenceLoader']]]
+  ['uiimage_0',['uiImage',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#abbef883245986414e93aa3ce84aabe21',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]],
+  ['updaterate_1',['updateRate',['../classrlmg_1_1_tools_1_1_media_players_1_1_image_sequence_player.html#a4139d5f422025cbb3f457ad66c78ef82',1,'rlmg::Tools::MediaPlayers::ImageSequencePlayer']]]
 ];
