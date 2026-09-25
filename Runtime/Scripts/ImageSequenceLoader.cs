@@ -132,7 +132,10 @@ namespace rlmg.Tools.MediaPlayers
                     break;
             }
 
-            DidLoadSucceed = nLoadedFrames == nExpectedFrames;
+            if (nLoadedFrames == nExpectedFrames)
+                currentStatus = LoadStatus.Succeeded;
+            else
+                currentStatus = LoadStatus.Failed;
 
         }
 

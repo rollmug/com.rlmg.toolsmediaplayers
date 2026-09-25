@@ -102,14 +102,14 @@
         protected Coroutine fadeUpRoutine;
         
         /// <summary>
-        /// Used for loading video; true if video is loading
+        /// Current video loading status
         /// </summary>
-        protected bool isLoading;
+        protected LoadStatus currentStatus = LoadStatus.NotYetLoaded;
 
         /// <summary>
         /// Did video load successfully?
         /// </summary>
-        public bool DidLoadSucceed;
+        public bool DidLoadSucceed => currentStatus == LoadStatus.Succeeded;
 
         /// <summary>
         /// Progress fraction for video loading.
@@ -117,10 +117,7 @@
         /// </summary>
         public virtual float LoadingProgress => DidLoadSucceed ? 1f : 0f;
 
-        /// <summary>
-        /// Is video loading?
-        /// </summary>
-        public virtual bool IsLoading => isLoading;
+        public virtual LoadStatus CurrentStatus => currentStatus;
         
 
         protected virtual void Awake()
@@ -219,15 +216,13 @@
 
             if (VideoPlayer == null)
             {
-                isLoading = false;
-                DidLoadSucceed = false;
+                currentStatus = LoadStatus.Failed;
                 return;
             }
 
             VideoPlayer.Stop();
 
-            isLoading = true;
-            DidLoadSucceed = false;
+            currentStatus = LoadStatus.Loading;
 
             // Fade viewport out before loading frame
             if (doFadeIfLoading &&
@@ -250,8 +245,6 @@
         {
             while (!VideoPlayer.isPrepared)
                 yield return null;
-
-            isLoading = true;
 
             // Play to load the first frame into the RenderTexture
             VideoPlayer.Play();
@@ -283,8 +276,7 @@
                 }
             }
 
-            isLoading = false;
-            DidLoadSucceed = true;
+            currentStatus = LoadStatus.Succeeded;
             loadRoutine = null;
         }
 

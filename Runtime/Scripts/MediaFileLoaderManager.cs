@@ -58,7 +58,7 @@ namespace rlmg.Tools.MediaPlayers
         /// <summary>
         /// Number of managed loaders that are currently loading
         /// </summary>
-        public int ActiveLoadersCount => managedLoaders.Where(i => i.IsLoading).Count();
+        public int ActiveLoadersCount => managedLoaders.Where(i => i.CurrentStatus == LoadStatus.Loading).Count();
 
         /// <summary>
         /// Is any managed loader currently loading?
@@ -66,9 +66,26 @@ namespace rlmg.Tools.MediaPlayers
         public bool IsAnyLoaderActive => ActiveLoadersCount > 0;
 
         /// <summary>
-        /// Is any managed loader currently loading?
+        /// Combined status of all managed loaders: Loading if any loader is loading; otherwise the
+        /// status of the first loader (in managed order) that hasn't loaded or has failed; otherwise Succeeded.
         /// </summary>
-        public bool IsLoading => IsAnyLoaderActive;
+        public LoadStatus CurrentStatus
+        {
+            get
+            {
+                if (IsAnyLoaderActive)
+                    return LoadStatus.Loading;
+
+                foreach (var loader in managedLoaders)
+                {
+                    if (loader.CurrentStatus == LoadStatus.NotYetLoaded ||
+                        loader.CurrentStatus == LoadStatus.Failed)
+                        return loader.CurrentStatus;
+                }
+
+                return LoadStatus.Succeeded;
+            }
+        }
 
         /// <summary>
         /// Loading progress towards the cumulative progress of all managed loaders

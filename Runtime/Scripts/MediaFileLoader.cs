@@ -44,9 +44,10 @@ namespace rlmg.Tools.MediaPlayers
         /// <summary>
         /// Is set to true after loading the movie the first time.
         /// </summary>
-        public bool DidLoadSucceed = false;
+        public virtual bool DidLoadSucceed => currentStatus == LoadStatus.Succeeded;
 
-        protected bool isLoading;
+        protected LoadStatus currentStatus = LoadStatus.NotYetLoaded;
+
 
         public UnityEvent LoadStarting;
 
@@ -86,7 +87,8 @@ namespace rlmg.Tools.MediaPlayers
 
         public virtual float LoadingProgress => 0f;
 
-        public virtual bool IsLoading => isLoading;
+        public virtual LoadStatus CurrentStatus => currentStatus;
+
 
         protected virtual void Awake()
         {
@@ -121,9 +123,7 @@ namespace rlmg.Tools.MediaPlayers
         /// <returns></returns>
         public virtual IEnumerator LoadMovieRoutine()
         {
-            isLoading = true;
-
-            DidLoadSucceed = false;
+            currentStatus = LoadStatus.Loading;
 
             LoadStarting?.Invoke();
 
@@ -132,7 +132,9 @@ namespace rlmg.Tools.MediaPlayers
                 yield return MainLoadMedia();
             }
 
-            isLoading = false;
+            // Nothing reported an outcome (e.g. doLoadMovie is false)
+            if (currentStatus == LoadStatus.Loading)
+                currentStatus = LoadStatus.NotYetLoaded;
 
             LoadFinished?.Invoke();
 
@@ -145,7 +147,7 @@ namespace rlmg.Tools.MediaPlayers
         /// <returns></returns>
         protected virtual IEnumerator MainLoadMedia()
         {
-            DidLoadSucceed = true;
+            currentStatus = LoadStatus.Succeeded;
             LoadSucceeded?.Invoke();
             yield break;
         }
